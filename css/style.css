@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face
+{
+    src: url(../font/Sacramento-Regular.ttf);
+    font-family: "Sacramento-Regular";
+}
+
+@font-face
+{
+    src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+    font-family: "Montserrat-ExtraLight";
+}
+
+@font-face{
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+    font-family:"Montserrat/Montserrat-Regular" ;
+} 
+
+@font-face{
+    src: url(../font/Montserrat/Montserrat-Light.ttf);
+    font-family: "Montserrat-Light";
+}
+@font-face
+{
+    src: url(../font/Merriweather/Merriweather-Light.ttf);
+    font-family: "Merriweather-Light";
+}
+@font-face{
+    src: url(../font/Montserrat/Montserrat-Thin.ttf);
+    font-family: "Montserrat-Thin";
+}
+html{
+    font-size: 62.5%;
+}
+
+.home-header
+{  
+    background: linear-gradient(to right,rgb(243, 233, 233),rgb(191, 231, 236),rgb(56, 238, 238) );
+
+}
+h1{
+    color:rgb(52, 13, 223);
+    font-weight:normal;
+    font-family: "Sacramento-Regular";
+    font-size: 5rem;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    color:rgb(52, 13, 223);
+    font-weight:normal;
+    font-family: "Sacramento-Regular";
+    font-size: 7rem;
+    font-style: normal;
+    text-align: center;
+}
+h6{
+    color:rgb(150, 12, 150);
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: "Montserrat/Montserrat-LightItalic";
+    text-align: center;
+
+}
+
+.cloud1
+{
+    margin-top: 5rem;
+    margin-left: 70rem;
+    text-align: center;
+    animation: CloudRight 10s linear infinite;
+    
+}
+.cloud2
+{
+    position: absolute;
+    margin-top: 20rem;
+    margin-right: 30rem;
+    display: block;
+    text-align: center;
+    margin: 10rem;
+    animation: CloudRight 15s linear infinite;
+}
+.cloud3
+{
+    position: absolute;
+    top: 10rem;
+    bottom: 15rem;
+    height: 5rem;
+    animation: CloudRight 20s linear infinite;
+
+}
+.cloud4
+{
+    position: absolute;
+    margin-top: 30rem;
+    margin-right: 40rem;
+    display: block;
+    margin: 20rem;
+    animation: CloudLeft 10s linear infinite;
+}
+.cloud5
+{
+    position: absolute;
+    margin-top: 40rem;
+    margin-right: 30rem;
+    display: block;
+    margin: 50rem;
+    animation: CloudLeft 5s linear infinite;
+    animation-delay: 5s;
+}
+.mountain
+{
+    padding: 5rem;
+    position: relative;
+    margin-right: 60rem;
+    overflow: 4rem;
+    left:35rem;
+}
+@keyframes CloudRight{
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-20vw);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(50rem);
+    }
+}
+@keyframes CloudRight{
+    0%
+    {
+    opacity: 0;
+    transform: translateX(90vw);
+    }
+    100%
+    {
+    opacity: 1;
+    transform: translateX(-50rem);
+    }
+}
+@keyframes CloudRight{
+    0%
+    {
+    opacity: 0;
+    transform: translateX(-90vw);
+    }
+    100%
+    {
+    opacity: 1;
+    transform: translateX(50rem)
+    }
+}
+@keyframes CloudLeft{
+    0%
+    {
+    opacity: 0;
+    transform: translateX(90vw);
+    }
+    100%
+    {
+    opacity: 1;
+    transform: translateX(-50rem)
+    }
+}
+@keyframes CloudLeft{
+    0%
+    {
+    opacity: 0;
+    transform: translateX(90vw);
+    }
+    100%
+    {
+    opacity: 1;
+    transform: translateX(-50rem)
+    }
+}
+    
+.home-division{
+    background: linear-gradient(to right,rgb(243, 233, 233),rgb(191, 231, 236),rgb(56, 238, 238) );
+}
+
+.dell{
+    margin: 4rem;
+    height:25rem;
+    border-radius: 50rem;
+    margin-left: 55rem;
+    text-align: center;
+}
+
+h4{
+    color: rgb(52, 13, 223);
+    font-family:"Sacramento-Regular" ;
+    font-size: 5rem;
+    text-align: center;
+
+}
+.del{
+    color: rgb(5, 2, 17);;
+    font-family: "Montserrat-Light";
+    font-size: 5rem;
+    text-align: center;
+}
+
+h3{
+    margin: 1rem;
+    color: black;
+    font-family: "Montserrat-ExtraLight";
+    font-style: normal;
+    font-size: 1.9rem;
+    text-align: center;
+}
+.home-body{
+    background: linear-gradient(to right,rgb(243, 233, 233),rgb(191, 231, 236),rgb(56, 238, 238) );
+    
+}
+.Skills{
+    color: rgb(52, 13, 223);;
+    font-family: "OFL";
+    margin-top: 10rem;
+    text-align: center;
+    margin: 3rem;;
+}
+
+.browser
+{
+    padding:1rem;
+    height: 10rem;
+    padding-left: 40rem;
+    position: absolute;
+
+}
+
+h5{
+    font-size:2rem;
+    text-align: justify;
+    margin: 2rem;
+    margin-left: 52rem;
+    color:  rgb(52, 13, 223);
+}
+p{ 
+    position: relative;
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 2rem;
+    margin-left: 52rem;
+}
+.idea{
+    position: relative;;
+    height: 1.5rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 1rem;
+    margin-left: 52rem;
+}
+.touch{
+    font-size:5rem;
+    text-align: center;
+    margin: 3rem;
+    font-family: "Montserrat-Thin";
+    color:  rgb(52, 13, 223);
+
+}
+.know{
+    color:rgb(52, 13, 223);;
+    font-family: "Montserrat/Montserrat-Regular";
+    height: 5rem;
+    margin: 1rem;
+    font-size: 3rem;
+}
+.programming{
+    margin: 1rem;
+    color: black;
+    font-family: "Montserrat-ExtraLight";
+    font-style: normal;
+    font-size: 1.9rem;
+}
+
+.home-footer{
+    padding: 1rem;
+    background:linear-gradient(to right,rgb(4, 193, 218),rgb(230, 170, 215));
+    height: 15rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+li{
+    display: inline;
+    padding: 2rem;
+}
+ul{
+    padding: 3rem;
+}
+.copyright{
+    font-family:"Montserrat-Regular" ;
+    margin-top: 10rem;
+    text-align: center;
+    margin: 3rem;;
+
+}
